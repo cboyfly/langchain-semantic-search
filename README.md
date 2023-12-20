@@ -12,7 +12,7 @@ The simple_doc_comparison is better suited for finding word level differences be
 
 In this case the differences in max and maximum will be flagged. It is recommended to use this file if you know the documents you are comparing are very similar and short, as this method might produce a lot of output.
 
-The demo.ipynb is better suited for comparing documents at a topic level, and for comparisons of complex documents. For example, you should use this file if you are finding the differences between benefits for BCBS Michigan and BCBS North Carolina. I use a langchain framework and embeddings to allow for semantic meaning to be captured, so more nuanced differences in the docs can be gleaned.
+The demo.ipynb is better suited for comparing documents at a topic level, and for comparisons of complex documents. For example, you should use this file if you are finding the differences between benefits for BCBS Michigan and BCBS North Carolina. I use a langchain framework and embeddings to allow for semantic meaning to be captured, so more nuanced differences in the docs can be gleaned. A QA chain is created for both documents being compared.
 
 ## Installation
 
